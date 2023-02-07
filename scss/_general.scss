@@ -1,0 +1,34 @@
+@use "variables";
+
+body {
+  font-family: $font-main;
+  background: $bg-color;
+  color: $title-color;
+}
+
+.container {
+  padding: 0 10px;
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding: 0 34px;
+
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+    padding: 0 135px;
+
+  }
+}
+
+.section {
+  padding: 35px 0;
+
+  @media screen and (min-width: 1440px) {
+    padding: 45px 0;
+  }
+}
