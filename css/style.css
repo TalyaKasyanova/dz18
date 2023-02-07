@@ -477,6 +477,7 @@ body {
   line-height: 1.66;
   letter-spacing: 0.1em;
   cursor: pointer;
+  transition: 0.5s all cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .popular-section__button:hover {
   color: #565656;
@@ -575,6 +576,7 @@ body {
   padding: 10px;
   border: 1px solid #565656;
   fill: #565656;
+  transition: 0.5s all cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .footer-social-item:hover {
   background-color: #565656;

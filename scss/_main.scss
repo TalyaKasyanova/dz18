@@ -338,6 +338,7 @@
     line-height: 1.66;
     letter-spacing: 0.1em;
     cursor: pointer;
+    transition: 0.5s all cubic-bezier(.17, .67, .83, .67);
 
     &:hover {
         color: $text-color;
@@ -446,6 +447,7 @@
             padding: 10px;
             border: 1px solid $text-color;
             fill: $text-color;
+            transition: 0.5s all cubic-bezier(.17, .67, .83, .67);
 
             &:hover {
                 background-color: $text-color;
