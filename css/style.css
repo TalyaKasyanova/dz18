@@ -157,8 +157,8 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1440px;
-    padding: 0 135px;
+    max-width: 1240px;
+    padding: 0 35px;
   }
 }
 
@@ -471,12 +471,17 @@ body {
   padding: 10px 45px;
   color: #FFFFFF;
   background-color: #565656;
-  border: none;
+  border: 1px solid #565656;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.66;
   letter-spacing: 0.1em;
   cursor: pointer;
+}
+.popular-section__button:hover {
+  color: #565656;
+  background-color: #FFFFFF;
+  border: 1px solid #565656;
 }
 
 .section-designer {
@@ -569,6 +574,7 @@ body {
 .footer-social-item {
   padding: 10px;
   border: 1px solid #565656;
+  fill: #565656;
 }
 .footer-social-item:hover {
   background-color: #565656;

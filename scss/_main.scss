@@ -332,12 +332,18 @@
     padding: 10px 45px;
     color: $bg-color;
     background-color: $text-color;
-    border: none;
+    border: 1px solid $text-color;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.66;
     letter-spacing: 0.1em;
     cursor: pointer;
+
+    &:hover {
+        color: $text-color;
+        background-color: $bg-color;
+        border: 1px solid $text-color;
+    }
 }
 
 
@@ -439,6 +445,7 @@
         &-item {
             padding: 10px;
             border: 1px solid $text-color;
+            fill: $text-color;
 
             &:hover {
                 background-color: $text-color;
