@@ -10,9 +10,45 @@
 </head>
 
 <body>
-    <header class="main-header">
-        <div class="container">
-
+    <header class="header">
+        <div class="container header__holder">
+            <a href="#" class="header__logo">
+                <svg class="icon header__logo-icon">
+                    <use href="./images/sprite.svg#icon-logo"></use>
+                </svg>
+            </a>
+            <div class="header-flex">
+                <input type="checkbox">
+                <div class="header__menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-list-item">
+                            <a href="#" class="header__nav-list-item-link">Home</a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a href="#" class="header__nav-list-item-link">about</a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a href="#" class="header__nav-list-item-link">works</a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a href="#" class="header__nav-list-item-link">blog</a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a href="#" class="header__nav-list-item-link">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="header__search">
+                    <svg class="icon icon-search" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-search"></use>
+                    </svg>
+                </a>
+            </div>
         </div>
     </header>
     <main class="main">
