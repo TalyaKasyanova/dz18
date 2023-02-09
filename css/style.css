@@ -306,6 +306,7 @@ a {
 
 .icon-search {
   fill: #565656;
+  transition: 0.5s all cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .icon-search:hover {
   fill: rgb(99, 195, 199);

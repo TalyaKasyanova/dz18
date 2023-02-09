@@ -199,6 +199,7 @@
 
 .icon-search {
     fill: $text-color;
+    transition: 0.5s all cubic-bezier(.17, .67, .83, .67);
 
     &:hover {
         fill: $accent-color;
